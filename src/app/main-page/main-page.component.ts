@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild,AfterViewInit} from '@angular/core';
 import {DataService} from '../data.service';
+import {HomeSliderComponent} from './home-slider/home-slider.component';
 
 @Component({
   selector: 'app-main-page',
@@ -9,7 +10,9 @@ import {DataService} from '../data.service';
 export class MainPageComponent implements OnInit {
 Data: any = [];
   private items :Array<any>=[];
+  @ViewChild(HomeSliderComponent)TestNames;
   constructor( private data:DataService) {
+
     this.items=[
 
       {
@@ -106,9 +109,12 @@ Data: any = [];
 
       ];
   }
+test:string='first-test'
 
-  ngOnInit() {
+
+   ngOnInit() {
     this.data.currentData.subscribe( Data => this.Data = Data);
+this.test = this.TestNames.test;
   }
 
 }

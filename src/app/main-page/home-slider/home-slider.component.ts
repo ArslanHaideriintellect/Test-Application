@@ -1,4 +1,4 @@
-import { Component, OnInit , Input } from '@angular/core';
+import { Component, OnInit , Input, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home-slider',
@@ -6,6 +6,7 @@ import { Component, OnInit , Input } from '@angular/core';
   styleUrls: ['./home-slider.component.css'],
 })
 export class HomeSliderComponent implements OnInit {
+   test:string='MORE';
   @Input() data: any;
   // items :Array<any>=[];
 // private items :any = [
