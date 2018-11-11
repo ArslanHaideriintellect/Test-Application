@@ -1,0 +1,48 @@
+.second-page{
+  background-image: url("../../assets/auto-repair-service-napa.jpg");
+  min-height: 601px;
+  background-position:center ;
+  background-size: cover;
+  text-align: center;
+
+}
+.second-page h1{
+  color: white;
+  padding-top: 1%;
+}
+.service{
+  flex: 1;
+}
+.input-card{
+  flex: 1
+;
+}
+.card{
+  color: white;
+  background-color:rgba(0, 0, 0, 0.5);
+  border: none;
+  text-align: center;
+  min-height: 417px;
+}
+.card h3{
+  padding-bottom: 20px;
+  color: red;
+  padding-top: 2%;
+}
+.col-md-12{
+  padding-top: 2%;
+}
+.card p{
+  font-size: 26px;
+}
+.card h1{
+  font-size: 39px;
+
+}
+.list{
+  padding-top: 27px;
+}
+.card h2{
+  font-size: 39px;
+  padding-top: 18%;
+}

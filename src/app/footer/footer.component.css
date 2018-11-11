@@ -1,0 +1,55 @@
+.footer-container{
+  min-height: 335px;
+  background-color:#272115;
+  color: white !important;
+}
+.list-column{
+  text-align: center;
+}
+.list-column ul{
+  list-style: none;
+  margin-top: 14%;
+  padding-top: 5%;
+}
+.list-column ul li{
+  /*color: white;*/
+  font-size: 18px;
+  padding-top: 4%;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 4%;
+}
+.col-sm-8{
+  text-align: center;
+  padding-top: 6%;
+}
+.col-sm-8 input{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  padding: 10px 92px;
+  text-align: left;
+}
+.col-sm-8 input ::placeholder{
+  color: black;
+  text-align: left;
+}
+.col-sm-8 p{
+  font-weight: bold;
+}
+.btn-primary {
+  margin-left: 1%;
+  padding: 7px 41px;
+  margin-top: 1%;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.footer-div{
+padding-right: 14%;
+}
+.input-div{
+  margin-top:3%;
+}.input-div ul li{
+  color: black;
+ }

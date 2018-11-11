@@ -1,0 +1,30 @@
+<div class="container-fluid p-0 first-container">
+  <div class="navbar-div">
+<div class="col-sm-5 heading-col">
+  <h3>PRO<span>CAR</span></h3></div>
+    <div class="col-sm-7 list-col">
+    <ul>
+      <li>HOME</li>
+      <li>ABOUT</li>
+      <li>SHOP</li>
+      <li>SERVICES</li>
+      <li>CONTACTS</li>
+      <li>PAGES</li>
+
+    </ul></div>
+
+  </div>
+<div class="col-sm-12 details-column">
+  <div class="main-heading">
+    <h1>Welcome to Pro<span>Car</span></h1>
+  </div>
+  <div class="details">
+    <p>Welcome To The Most Smartest Garage Of The World !</p>
+  </div>
+</div>
+  <div class="col-sm-12 btn-div">
+   <app-cards [Data]="Data"></app-cards> <button class="btn btn-primary"><a routerLink="/services">View Services</a></button>
+  </div>
+
+</div>
+<app-home-slider [data]="items"></app-home-slider>

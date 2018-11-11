@@ -1,0 +1,75 @@
+body{
+
+}
+.first-container{
+  background-image: url("../../../src/assets/Lamborghini-Reventon-on-Road-HD-Wallpaper.jpg");
+  min-height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+.navbar-div{
+  display: flex;
+}
+.navbar-div ul{
+  float: right;
+}
+.list-col ul{
+  list-style: none;
+}
+.list-col ul li{
+  float: left;
+  color: white;
+  padding-left: 10px;
+  padding-right: 19px;
+  margin-top: 21px;
+  font-family:Mangal;
+}
+.list-col ul li:hover{
+  color: red;
+  cursor: pointer;
+
+}
+.heading-col h3{
+  color: white;
+  font-size: 48px;
+  margin-top: 2%;
+  margin-left: 7%;
+  font-family:Mangal;
+}
+.heading-col h3 span{
+  color: red;
+}
+.main-heading h1{
+  font-size: 114px;
+  color: white;
+  font-weight: lighter;
+
+  margin-top: 2%;
+}
+.main-heading h1 span{
+  color: red;
+}
+.details-column{
+  text-align: center;
+}
+.details p{
+  color: white;
+  letter-spacing: 2px;
+  font-family: Calibri;
+}
+.btn-div{
+  text-align: center;
+}
+.btn-primary{
+  /*margin-top: 19%;*/
+  padding: 10px 52px;
+  background-color: transparent;
+  border-radius: 25px;
+  border: 3px solid white;
+  margin-bottom: 16px;
+}
+.btn-primary a {
+  color: white;
+  text-decoration: none;
+}
+

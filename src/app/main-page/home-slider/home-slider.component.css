@@ -1,0 +1,16 @@
+.slider-wrapper{
+  height: 300px!important;
+  /*margin-top: 5%;*/
+
+}
+.background-color{
+  /*background-color:#95835e;*/
+  text-align: center;
+}
+.background-color h1{
+  padding-top: 3%;
+  font-size: 45px;
+}
+.items{
+  margin-top: 2%;
+}

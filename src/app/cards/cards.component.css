@@ -1,0 +1,19 @@
+.card{
+  /*background-color:rgba(0, 0, 0, 0.5);*/
+  color: white;
+background-color: transparent!important;
+  border: none;
+}
+.list{
+  padding-top: 27px;
+}
+.card h3{
+  font-size: 39px;
+}
+.card p{
+  font-size: 26px;
+}
+.col-md-4{
+  margin-right: 0px !important;
+ max-width: 100%!important;
+}

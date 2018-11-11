@@ -1,0 +1,32 @@
+<div class="background-color">
+<h1>FAVOURITES</h1>
+<div class="container-fluid p-0 slider-container" >
+  <div ng2-carouselamos class="slider-wrapper"
+            [items]="data"
+            [width]="550"
+            [$prev]="prev"
+            [$next]="next"
+       [$item]="item"
+
+
+                             ></div>
+  <ng-template #prev>
+    <img src="../../../assets/back.png" id="left">
+  </ng-template>
+
+
+  <ng-template #next>
+    <img src="../../../assets/next.png" id="right">
+  </ng-template>
+
+
+
+  <ng-template #item let-item let-i = "index" >
+  <div class="items">
+    <img src="{{item.image}}">
+
+  </div>
+  </ng-template>
+</div>
+
+</div>

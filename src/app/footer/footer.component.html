@@ -1,0 +1,31 @@
+<div class="container-fluid p-0 footer-container">
+  <div class="row">
+  <div class="col-sm-4 list-column">
+    <ul>
+      <li>PRICES</li>
+      <li>CONTACT</li>
+      <li>FOLLOW US</li>
+    </ul>
+  </div>
+    <div class="col-sm-8">
+      <div class="footer-div">
+      <h1>News LETTER</h1>
+        <p>sign up to our news letter and stay up tp date.</p></div>
+      <div class="input-div">
+        <!--<form (ngSubmit)="onSubmit(f)" #f="ngForm">-->
+
+          <input type="email"
+                 placeholder="Enter Your E-mail"
+                 #useremail
+          >
+        <button class="btn btn-primary" (click)="onAddEmail(useremail.value)" (click)="onSaveInput()">Add</button>
+        <!--<button class="btn btn-primary" > store store</button>-->
+        <!--<ul class="list-group" *ngFor="let data of q">-->
+          <!--<li class="list-group-item">{{ data.name }}</li>-->
+        <!--</ul>-->
+
+        <!--</form>-->
+        </div>
+    </div>
+  </div>
+</div>

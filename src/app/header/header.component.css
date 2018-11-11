@@ -1,0 +1,41 @@
+
+
+.main{
+  margin:0px;
+  width: 100%;
+}
+
+.header-div {
+  min-height: 56px;
+  width: 100%;
+
+  background-color: #0c0909;
+
+  border-bottom: 0.5px solid white;
+  display: flex;
+  align-items: center;
+}
+.contact-div{
+  flex: 7;
+  display: flex;
+  align-items: center;
+
+}
+.contact-div p{
+  color: white;
+  padding-left: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+.contact-div img{
+  height: 25px;
+  margin-left: 40px;
+}
+.icons-div{
+  flex: 1;
+
+}
+.icons-div img{
+ margin-left: 7%;
+  height: 25px;
+}
